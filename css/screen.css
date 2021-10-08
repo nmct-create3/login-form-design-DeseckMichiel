@@ -602,6 +602,12 @@ Card with box shadow
     border-top: var(--global-borderWidth) solid var(--global-color-neutral-xxx-light);
 }
 
+@media (prefers-color-scheme: dark) {
+    .c-card__footer {
+        border-top: var(--global-borderWidth) solid var(--global-color-neutral-xxxx-dark);
+    }
+}
+
 .c-card__title {
     text-align: center;
     font-size: 18px;
